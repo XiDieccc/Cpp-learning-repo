@@ -1,4 +1,0 @@
-﻿  queue.cpp
-E:\Projects\C-Review-repo\C++ Basic\C++ Basic\queue.cpp(25,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Projects\C-Review-repo\C++ Basic\C++ Basic\queue.cpp(67,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  C++ Basic.vcxproj -> E:\Projects\C-Review-repo\C++ Basic\x64\Debug\C++ Basic.exe
