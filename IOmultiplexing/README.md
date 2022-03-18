@@ -68,3 +68,7 @@ else if (len == -1)
     }
 }
 ```
+- 关于 read() 返回 -1 出错的对应 `errno` 补充一点：  
+    **errno == EINTR** 被异常中断，需要重启  
+    **errno == EAGIN || EWOULDBLOCK** 以阻塞方式读数据，但是没有数据了  
+    **errno == ECONNRESET** 连接被重置，需要移除监听队列，close()  
